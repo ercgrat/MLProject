@@ -1,0 +1,2 @@
+For Expanding:  =IF((C3=11),1,0)
+For Concatinating: =CONCATENATE(C3,D3,E3,F3)

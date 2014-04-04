@@ -1,0 +1,40 @@
+SIPP 2008 Panel (Core)	TMOVRFLG	PE: Mover flag	566188	Wave 1 -   current
+SIPP 2008 Panel (Core)	EENTAID	PE: Address ID of hhld where person entered sample	566304	Wave 1 - Wave 10
+SIPP 2008 Panel (Core)	EPPPNUM	PE: Person number	566305	Wave 1 - Wave 10
+SIPP 2008 Panel (Core)	TPTOTINC	PE: Total person's income for the reference month	566376	Wave 1 -   current
+SIPP 2008 Panel (Core)	LGTKEY	PE: Person longitudinal key	567195	Wave 1 -   current
+SIPP 2008 Panel (Core)	LGTMON	PE: Longitudinal month	567196	Wave 1 - Wave 10
+SIPP 2008 Panel (Core)	EPDJBTHN	LF: Paid job during the reference period	566440	Wave 1 -   current
+SIPP 2008 Panel (Core)	EPPFLAG	LF: Flag denoting imputation of labor force data	566442	Wave 1 -   current
+SIPP 2008 Panel (Core)	EDISABL	LF: Had a work-limiting physical or mental condition	566448	Wave 1 -   current
+SIPP 2008 Panel (Core)	EDISPREV	LF: Had work-preventing physical/mental/health condition	566450	Wave 1 -   current
+SIPP 2008 Panel (Core)	ERSNOWRK	LF: Main reason for not having a job during the reference period	566452	Wave 1 -   current
+SIPP 2008 Panel (Core)	ELKWRK	LF: Spent time looking for work	566462	Wave 1 -   current
+SIPP 2008 Panel (Core)	ELAYOFF	LF: Spent time on layoff from a job	566464	Wave 1 -   current
+SIPP 2008 Panel (Core)	RTAKJOB	LF: Could ... have started a job during missing weeks?	566466	Wave 1 -   current
+SIPP 2008 Panel (Core)	RNOTAKE	LF: Reason couldn't start job	566467	Wave 1 -   current
+SIPP 2008 Panel (Core)	EFNP	FA: Number of persons in this family or pseudo family	566255	Wave 1 -   current
+SIPP 2008 Panel (Core)	EFKIND	FA: Kind of family (or pseudo-family)	566260	Wave 1 -   current
+SIPP 2008 Panel (Core)	RFNKIDS	FA: Total number of children under 18 in family	566261	Wave 1 -   current
+SIPP 2008 Panel (Core)	RFNSSR	FA: Number of Social Security recipients in family	566264	Wave 1 -   current
+SIPP 2008 Panel (Core)	TFTOTINC	FA: Total family income for this month	566270	Wave 1 -   current
+SIPP 2008 Panel (Core)	TFPNDIST	FA: Family distributions from pension plans	566272	Wave 1 -   current
+SIPP 2008 Panel (Core)	TFLUMPSM	FA: Family retirement lump sum payments	566273	Wave 1 -   current
+SIPP 2008 Panel (Core)	RENROLL	ED: Enrolled Full/Part sometime during 4 month period	566411	Wave 1 -   current
+SIPP 2008 Panel (Core)	EENRLM	ED: Enrollment status in this month	566413	Wave 1 -   current
+SIPP 2008 Panel (Core)	EENLEVEL	ED: Level or grade enrolled	566416	Wave 1 -   current
+SIPP 2008 Panel (Core)	EEDFUND	ED: Educational assistance	566418	Wave 1 -   current
+SIPP 2008 Panel (Core)	EASST05	ED: Loan that has to be repaid (Stafford or Perkins)	566423	Wave 1 -   current
+SIPP 2008 Panel (Core)	EASST12	ED: Aid from a state or local welfare office	566430	Wave 1 -   current
+SIPP 2008 Panel (Core)	EEDUCATE	ED: Highest Degree received or grade completed	566432	Wave 1 -   current
+SIPP 2008 Panel (Core)	EPOPSTAT	PE: Population status based on age in 4th reference month	566307	Wave 1 -   current
+SIPP 2008 Panel (Core)	ESEX	PE: Sex of this person	566312	Wave 1 -   current
+SIPP 2008 Panel (Core)	ERACE	PE: The race(s) the respondent is	566314	Wave 1 -   current
+SIPP 2008 Panel (Core)	EORIGIN	PE: Spanish, Hispanic or Latino	566316	Wave 1 -   current
+SIPP 2008 Panel (Core)	EBORNUS	PE: Respondent was born in the U.S.	566318	Wave 1 -   current
+SIPP 2008 Panel (Core)	ECITIZEN	PE: US Citizenship Status of Respondent	566320	Wave 1 -   current
+SIPP 2008 Panel (Core)	ESPEAK	HH: Speak language other than English	566324	Wave 1 -   current
+SIPP 2008 Panel (Core)	EHOWWELL	HH: Ability to speak English	566328	Wave 1 -   current
+SIPP 2008 Panel (Core)	RLNGISOL	HH: Linguistic isolation	566330	Wave 1 -   current
+SIPP 2008 Panel (Core)	TAGE	PE: Age as of last birthday	566351	Wave 1 -   current
+SIPP 2008 Panel (Core)	EMS	PE: Marital status	566355	Wave 1 -   current
