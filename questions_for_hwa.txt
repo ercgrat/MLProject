@@ -1,0 +1,8 @@
+Are booleans always the answer?
+For example, if M/F is turned into a boolean, we only have a weight for once case.
+Same problem with US citizen boolean.
+
+How to deal with encoding the month?
+
+What are the possible ways to work with longitudinal data?
+Ideas include Hidden Markov Models and boosting.
