@@ -32,17 +32,7 @@ ERSNOWRK:
 TEMPINJURY	TEMPILLNESS	CHRONICHEALTHPROBLEM	RETIRED	PREGNANT	CAREGIVER	SCHOOL	NOFIND	LAYOFF	UNINTERESTED	OTHER
 
 Formulas Used:
-=IF(($N3=1),1,0)
-=IF(($N3=2),1,0)
-=IF(($N3=3),1,0)
-=IF(($N3=4),1,0)
-=IF(($N3=5),1,0)
-=IF(($N3=6),1,0)
-=IF(($N3=7),1,0)
-=IF(($N3=8),1,0)
-=IF(($N3=9),1,0)
-=IF(($N3=10),1,0)
-=IF(($N3=11),1,0)
+=IF(($N3=1),1,0)	=IF(($N3=2),1,0)	=IF(($N3=3),1,0)	=IF(($N3=4),1,0)	=IF(($N3=5),1,0)	=IF(($N3=6),1,0)	=IF(($N3=7),1,0)	=IF(($N3=8),1,0)	=IF(($N3=9),1,0)	=IF(($N3=10),1,0)	=IF(($N3=11),1,0)
 
 ELKWRK: =IF((Y3=1),1,0)
 -LOOKINGFORJOB
@@ -61,33 +51,21 @@ EFNP:
 1PEOPLE	2PEOPLE	3PEOPLE	4PEOPLE	5PEOPLE	>=6PEOPLE
 
 Formulas Used:
-=IF(($AB3=1),1,0)
-=IF(($AB3=2),1,0)
-=IF(($AB3=3),1,0)
-=IF(($AB3=4),1,0)
-=IF(($AB3=5),1,0)
-=IF(($AB3>=6),1,0)
+=IF(($AB3=1),1,0)	=IF(($AB3=2),1,0)	=IF(($AB3=3),1,0)	=IF(($AB3=4),1,0)	=IF(($AB3=5),1,0)	=IF(($AB3>=6),1,0)
 
 EFKIND:
 3 New Columns Headed as Follows:
 HUSBANDANDWIFE	MALE	FEMALE
 
 Formulas Used:
-=IF(($AH3=1),1,0)
-=IF(($AH3=2),1,0)
-=IF(($AH3=3),1,0)
+=IF(($AH3=1),1,0)	=IF(($AH3=2),1,0)	=IF(($AH3=3),1,0)
 
 RFNKIDS:
 6 New COlumns Headed as Follows:
 NOCHILD	1CHILD	2CHILD	3CHILD	4CHILD	>=5CHILD
 
 Formulas Used:
-=IF(($AK3=0),1,0)
-=IF(($AK3=1),1,0)
-=IF(($AK3=2),1,0)
-=IF(($AK3=3),1,0)
-=IF(($AK3=4),1,0)
-=IF(($AK3>=5),1,0)
+=IF(($AK3=0),1,0)	=IF(($AK3=1),1,0)	=IF(($AK3=2),1,0)	=IF(($AK3=3),1,0)	=IF(($AK3=4),1,0)	=IF(($AK3>=5),1,0)
 
 RFNSSR:
 4 New Columns Headed as Follows:
