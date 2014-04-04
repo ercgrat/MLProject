@@ -1,0 +1,1133 @@
+<Session>
+<DataBasket>
+<TotalVariableCount> 40 </TotalVariableCount>
+<Version> 2 </Version>
+<Variable>
+<VarId>55380896b83939131a7a60b807e5f58f</VarId>
+<Idnum> 566188 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> TMOVRFLG </VarMnemonic>
+<VarDescription> PE: Mover flag </VarDescription>
+<Ranges>
+<RangeCount> 8 </RangeCount>
+<Range>
+<ValDescription> Not in Sample (Not in universe yet) </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> New to sample </ValDescription>
+<Value> 0 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Nonmover </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Moved, same county </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Moved, different county within same state </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Moved, different state </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Moved, unable to follow (Type D) </ValDescription>
+<Value> 5 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Moved, out of scope (Type C) </ValDescription>
+<Value> 6 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>95387afb7ecd819e7924c92d41c6117c</VarId>
+<Idnum> 566304 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EENTAID </VarMnemonic>
+<VarDescription> PE: Address ID of hhld where person entered sample </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Entry address ID </ValDescription>
+<OrigMinVal> 011 </OrigMinVal>
+<OrigMaxVal> 139 </OrigMaxVal>
+<MinVal> 011 </MinVal>
+<MaxVal> 011 </MaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>3c25c94fae9ec9407adb33a21e2e3baf</VarId>
+<Idnum> 566305 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EPPPNUM </VarMnemonic>
+<VarDescription> PE: Person number </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Person number </ValDescription>
+<OrigMinVal> 0101 </OrigMinVal>
+<OrigMaxVal> 1399 </OrigMaxVal>
+<MinVal> 0101 </MinVal>
+<MaxVal> 0101 </MaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>1b458b366a9aa93a1acb2a376830c6f3</VarId>
+<Idnum> 566376 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> TPTOTINC </VarMnemonic>
+<VarDescription> PE: Total person's income for the reference month </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Amount in dollars </ValDescription>
+<OrigMinVal> -1500000 </OrigMinVal>
+<OrigMaxVal> 1500000 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> None or not in universe </ValDescription>
+<Value> 0 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>e4a3bfe5e8296a9dd4e7155d2f3464c4</VarId>
+<Idnum> 567195 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> LGTKEY </VarMnemonic>
+<VarDescription> PE: Person longitudinal key </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Longitudinal Key </ValDescription>
+<OrigMinVal> 1001 </OrigMinVal>
+<OrigMaxVal> 70000001 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>3fd99f16b0bb62cedbd89619528ddbf8</VarId>
+<Idnum> 567196 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> LGTMON </VarMnemonic>
+<VarDescription> PE: Longitudinal month </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Longitudinal month </ValDescription>
+<OrigMinVal> 1 </OrigMinVal>
+<OrigMaxVal> 60 </OrigMaxVal>
+<MinVal> 1 </MinVal>
+<MaxVal> 40 </MaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>6af96681f6e3df23dae8190ca8db6da8</VarId>
+<Idnum> 566440 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EPDJBTHN </VarMnemonic>
+<VarDescription> LF: Paid job during the reference period </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>db54a8497fc61db65544465a2e19b25f</VarId>
+<Idnum> 566442 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EPPFLAG </VarMnemonic>
+<VarDescription> LF: Flag denoting imputation of labor force data </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Not applicable </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>b35054e51e98b7c7652cf833d56fb767</VarId>
+<Idnum> 566448 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EDISABL </VarMnemonic>
+<VarDescription> LF: Had a work-limiting physical or mental condition </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>9605055a1992711171758b1cd28986fb</VarId>
+<Idnum> 566450 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EDISPREV </VarMnemonic>
+<VarDescription> LF: Had work-preventing physical/mental/health condition </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>8c7b518f99b8413dc82d25bc93a25522</VarId>
+<Idnum> 566452 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ERSNOWRK </VarMnemonic>
+<VarDescription> LF: Main reason for not having a job during the reference period </VarDescription>
+<Ranges>
+<RangeCount> 12 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Temporarily unable to work because of an injury </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Temporarily unable to work because of an illness </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Unable to work because of chronic health condition or disablity </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Retired </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Pregnancy/childbirth </ValDescription>
+<Value> 5 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Taking care of children/other persons </ValDescription>
+<Value> 6 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Going to school </ValDescription>
+<Value> 7 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Unable to find work </ValDescription>
+<Value> 8 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> On layoff (temporary or indefinite) </ValDescription>
+<Value> 9 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not interested in working at a job </ValDescription>
+<Value> 10 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Other </ValDescription>
+<Value> 11 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>c9bb44de19a299c232edef8ea077ee7a</VarId>
+<Idnum> 566462 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ELKWRK </VarMnemonic>
+<VarDescription> LF: Spent time looking for work </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>240c2945edec871d51022f21b1447f18</VarId>
+<Idnum> 566464 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ELAYOFF </VarMnemonic>
+<VarDescription> LF: Spent time on layoff from a job </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>2d52e706f52aa1c5d8185c233c919d49</VarId>
+<Idnum> 566466 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> RTAKJOB </VarMnemonic>
+<VarDescription> LF: Could ... have started a job during missing weeks? </VarDescription>
+<Ranges>
+<RangeCount> 4 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not reported </ValDescription>
+<Value> 0 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>fcca5602a8f0247723ec8c9e01cd14d4</VarId>
+<Idnum> 566467 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> RNOTAKE </VarMnemonic>
+<VarDescription> LF: Reason couldn't start job </VarDescription>
+<Ranges>
+<RangeCount> 6 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not reported </ValDescription>
+<Value> 0 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Waiting for a new job to begin </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Own Temporary Illness </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> School </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> OTHER </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>8f6399449b7b2ca35b49e2720807e342</VarId>
+<Idnum> 566255 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EFNP </VarMnemonic>
+<VarDescription> FA: Number of persons in this family or pseudo family </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Persons in family or pseudo family </ValDescription>
+<OrigMinVal> 1 </OrigMinVal>
+<OrigMaxVal> 30 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>3e929cd43d88eea93f92064f3c87cbca</VarId>
+<Idnum> 566260 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EFKIND </VarMnemonic>
+<VarDescription> FA: Kind of family (or pseudo-family) </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Headed by Husband/Wife </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Male Headed </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Female Headed </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>9182251f952b8ca7aa7bb3a645ac85c2</VarId>
+<Idnum> 566261 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> RFNKIDS </VarMnemonic>
+<VarDescription> FA: Total number of children under 18 in family </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Number of children </ValDescription>
+<OrigMinVal> 0 </OrigMinVal>
+<OrigMaxVal> 30 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>3b2727c82eebff85c136b74d817954a8</VarId>
+<Idnum> 566264 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> RFNSSR </VarMnemonic>
+<VarDescription> FA: Number of Social Security recipients in family </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Number of recipients </ValDescription>
+<OrigMinVal> 0 </OrigMinVal>
+<OrigMaxVal> 30 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>5b491fc32d44f692cb1f8066eaca178b</VarId>
+<Idnum> 566270 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> TFTOTINC </VarMnemonic>
+<VarDescription> FA: Total family income for this month </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Dollar amount </ValDescription>
+<OrigMinVal> -1500000 </OrigMinVal>
+<OrigMaxVal> 1500000 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>85baa141bce4fe001598257bbdd2969d</VarId>
+<Idnum> 566272 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> TFPNDIST </VarMnemonic>
+<VarDescription> FA: Family distributions from pension plans </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Dollar amount </ValDescription>
+<OrigMinVal> 0 </OrigMinVal>
+<OrigMaxVal> 1500000 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>f9d5c247f9d92a709c1445f0e242587e</VarId>
+<Idnum> 566273 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> TFLUMPSM </VarMnemonic>
+<VarDescription> FA: Family retirement lump sum payments </VarDescription>
+<Ranges>
+<RangeCount> 1 </RangeCount>
+<Range>
+<ValDescription> Dollar amount </ValDescription>
+<OrigMinVal> 0 </OrigMinVal>
+<OrigMaxVal> 15000000 </OrigMaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>f81d015cd99c074ca907d4b339857774</VarId>
+<Idnum> 566411 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> RENROLL </VarMnemonic>
+<VarDescription> ED: Enrolled Full/Part sometime during 4 month period </VarDescription>
+<Ranges>
+<RangeCount> 4 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> Enrolled full-time </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Enrolled part-time </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not enrolled </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>b6dda2b1aa6b2afbd3b274871a06d38</VarId>
+<Idnum> 566413 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EENRLM </VarMnemonic>
+<VarDescription> ED: Enrollment status in this month </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>a12b96c3734317db204c6808a134229e</VarId>
+<Idnum> 566416 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EENLEVEL </VarMnemonic>
+<VarDescription> ED: Level or grade enrolled </VarDescription>
+<Ranges>
+<RangeCount> 11 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Elementary grades 1-8 </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> High school grades 9-12 </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> College year 1 (freshman) </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> College year 2 (sophomore) </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> College year 3 (junior) </ValDescription>
+<Value> 5 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> College year 4 (senior) </ValDescription>
+<Value> 6 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> First year graduate or professional school </ValDescription>
+<Value> 7 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Second year or higher in graduate or professional school </ValDescription>
+<Value> 8 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Vocational, technical, or business school beyond high school level </ValDescription>
+<Value> 9 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Enrolled in college, but not working towards degree </ValDescription>
+<Value> 10 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>cc7647b457536c6eb6d331427f03bc33</VarId>
+<Idnum> 566418 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EEDFUND </VarMnemonic>
+<VarDescription> ED: Educational assistance </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>bb26a67abd27514ec8939553826cccdf</VarId>
+<Idnum> 566423 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EASST05 </VarMnemonic>
+<VarDescription> ED: Loan that has to be repaid (Stafford or Perkins) </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Received </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Did not receive </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>db4bbf2e70e2911e7e8fd62a37527128</VarId>
+<Idnum> 566430 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EASST12 </VarMnemonic>
+<VarDescription> ED: Aid from a state or local welfare office </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Received </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Did not receive </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>edbfd5b5720ea4cc91496c24890d770e</VarId>
+<Idnum> 566432 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EEDUCATE </VarMnemonic>
+<VarDescription> ED: Highest Degree received or grade completed </VarDescription>
+<Ranges>
+<RangeCount> 17 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> Less Than 1st Grade </ValDescription>
+<Value> 31 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 1st, 2nd, 3rd or 4th grade </ValDescription>
+<Value> 32 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 5th Or 6th Grade </ValDescription>
+<Value> 33 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 7th Or 8th Grade </ValDescription>
+<Value> 34 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 9th Grade </ValDescription>
+<Value> 35 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 10th Grade </ValDescription>
+<Value> 36 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 11th Grade </ValDescription>
+<Value> 37 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> 12th grade, no diploma </ValDescription>
+<Value> 38 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> High School Graduate - (diploma or GED or equivalent) </ValDescription>
+<Value> 39 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Some college, but no degree </ValDescription>
+<Value> 40 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Diploma or certificate from a vocational, technical, trade or business school beyond high </ValDescription>
+<Value> 41 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Associate (2-yr) college degree (include academic/occupational degree) </ValDescription>
+<Value> 43 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Bachelor's degree (for example: BA, AB, BS) </ValDescription>
+<Value> 44 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Master's degree (For example: MA, MS, MEng, MEd, MSW, MBA) </ValDescription>
+<Value> 45 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Professional School degree (for example: MD(doctor),DDS(dentist),JD(lawyer) </ValDescription>
+<Value> 46 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Doctorate degree (for example: Ph.D., Ed.D) </ValDescription>
+<Value> 47 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>2fb31d244a2bba5d143686ed867ed268</VarId>
+<Idnum> 566307 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EPOPSTAT </VarMnemonic>
+<VarDescription> PE: Population status based on age in 4th reference month </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Adult (15 years of age or older) </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Child (Under 15 years of age) </ValDescription>
+<Value> 2 </Value>
+<Selected> false </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>e890569010ccfa532921c8a0e9d3a444</VarId>
+<Idnum> 566312 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ESEX </VarMnemonic>
+<VarDescription> PE: Sex of this person </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Male </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Female </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>7c6aebfefba6ec2fc02008cb398426f7</VarId>
+<Idnum> 566314 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ERACE </VarMnemonic>
+<VarDescription> PE: The race(s) the respondent is </VarDescription>
+<Ranges>
+<RangeCount> 4 </RangeCount>
+<Range>
+<ValDescription> White alone </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Black alone </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Asian alone </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Residual </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>c0aff6b1438bbbc9ba89c1aed108c275</VarId>
+<Idnum> 566316 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EORIGIN </VarMnemonic>
+<VarDescription> PE: Spanish, Hispanic or Latino </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>e5b5fb08d4881f15a18c7f216f8efcdf</VarId>
+<Idnum> 566318 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EBORNUS </VarMnemonic>
+<VarDescription> PE: Respondent was born in the U.S. </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>892f0ed4f26108a54643176be24d13ea</VarId>
+<Idnum> 566320 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ECITIZEN </VarMnemonic>
+<VarDescription> PE: US Citizenship Status of Respondent </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>61eebee8f52e1eceadfbffd3ad7f669c</VarId>
+<Idnum> 566324 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> ESPEAK </VarMnemonic>
+<VarDescription> HH: Speak language other than English </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> Yes </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> No </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>7a5ee0a9b16b9722b1db01a29e429f3f</VarId>
+<Idnum> 566328 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EHOWWELL </VarMnemonic>
+<VarDescription> HH: Ability to speak English </VarDescription>
+<Ranges>
+<RangeCount> 5 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Very well </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Well </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not well </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not at all </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>3e661cc564c9c605b426a73ab2c85a1c</VarId>
+<Idnum> 566330 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> RLNGISOL </VarMnemonic>
+<VarDescription> HH: Linguistic isolation </VarDescription>
+<Ranges>
+<RangeCount> 3 </RangeCount>
+<Range>
+<ValDescription> Not in Universe </ValDescription>
+<Value> -1 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> In linguistically isolated household </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Not in linguistically isolated household </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>f382f816d345dd546a8a8e7d57d4b89a</VarId>
+<Idnum> 566351 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> TAGE </VarMnemonic>
+<VarDescription> PE: Age as of last birthday </VarDescription>
+<Ranges>
+<RangeCount> 2 </RangeCount>
+<Range>
+<ValDescription> Less than 1 full year old </ValDescription>
+<Value> 0 </Value>
+<Selected> false </Selected>
+</Range>
+<Range>
+<ValDescription> Number of years old </ValDescription>
+<OrigMinVal> 1 </OrigMinVal>
+<OrigMaxVal> 90 </OrigMaxVal>
+<MinVal> 1 </MinVal>
+<MaxVal> 69 </MaxVal>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+<Variable>
+<VarId>e40737b76bea811ef871de158a4f2cd6</VarId>
+<Idnum> 566355 </Idnum>
+<Type> 1 </Type>
+<VarMnemonic> EMS </VarMnemonic>
+<VarDescription> PE: Marital status </VarDescription>
+<Ranges>
+<RangeCount> 6 </RangeCount>
+<Range>
+<ValDescription> Married, spouse present </ValDescription>
+<Value> 1 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Married, spouse absent </ValDescription>
+<Value> 2 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Widowed </ValDescription>
+<Value> 3 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Divorced </ValDescription>
+<Value> 4 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Separated </ValDescription>
+<Value> 5 </Value>
+<Selected> true </Selected>
+</Range>
+<Range>
+<ValDescription> Never Married </ValDescription>
+<Value> 6 </Value>
+<Selected> true </Selected>
+</Range>
+</Ranges>
+</Variable>
+</DataBasket>
+<TreeInfo>
+<NumNodes> 1 </NumNodes>
+<TreeNode>
+<Survey> 2 </Survey>
+<Subsrv> 129 </Subsrv>
+<Component> 1437 </Component>
+<Instance> 5003 </Instance>
+<Longitudinal> false </Longitudinal>
+<VirtualIndicator> 0 </VirtualIndicator>
+<NodeDescription> SIPP/2008 Panel/Wave 3/Topical Modules </NodeDescription>
+</TreeNode>
+</TreeInfo>
+</Session>
