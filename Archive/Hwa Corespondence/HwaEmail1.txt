@@ -1,0 +1,49 @@
+Hi Dr. Hwa,
+
+Our project team decided to work on the unemployment problem using
+longitudinal data from the Census Bureau to make predictions about
+unemployment for individuals. We retrieved the dataset and worked on
+modifying all of the features to fit well into any given learning model.
+While doing that, we became confused about the best choice for
+representing certain features and we're also having trouble choosing a
+model or algorithm, so any advice would be much appreciated.
+
+The dataset consists of thousands of individuals, each of which having the
+same feature set recorded at month intervals. We downloaded 40 months of
+data from 2008 to 2011 roughly, such that individuals have 40 instances of
+values for the one feature set. Our learning task isn't set in stone
+because we don't know what is feasible, but we're primarily interested in
+predicting the future duration in months of someone's unemployment given
+the feature values for a month where the individual  is unemployed (it
+might be restricted to predicting duration from the start of unemployment,
+i.e. starting from a month where the individual's status changed from
+employed to unemployed).
+
+Some options that we've looked at (but don't understand) include Hidden
+Markov Models, or using a model we've already learned like neural networks
+or SVM to do binary classifiation in combination with "boosting" somehow.
+An important question for us is whether we want to represent all month
+transitions with the same weights or if it will be important to model each
+month separately, as there may be unidentified factors that affect the
+importance of features at different points in time (e.g. the recession or
+more subtle economic fluctuations). Depending on which approach we choose,
+certain models become more or less appropriate.
+
+If any model/algorithm strikes you as particularly useful for this problem
+and dealing with longitudinal data, could you suggest one? We looked into
+comparing this problem with survival analysis on medical longitudinal data
+but I'm afraid the language in the relevant research papers is too dense
+to figure out what is actually being done.
+
+The question we had about representing our features is related to
+representing binary information with booleans. As the most simple example,
+we are encoding the gender of the individuals, and if we represent gender
+as a boolean with 0=male/1=female then the weight will only have an effect
+when the individual is female. Do we want two weights, and thus two
+separate boolean variables, in this case? Does that imply we want two
+weights in other cases if we feel that the presence versus the absence of
+something might have very different effects, such as being a US citizen or
+not?
+
+Thank you for taking the time to read this,
+Eric, Corey, Adam, Kyle

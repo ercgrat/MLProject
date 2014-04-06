@@ -1,0 +1,11 @@
+Link to git repository:
+
+https://github.com/ercgrat/MLProject
+
+To update from cmdline:
+
+1. Navigate to directory
+2. "git add ."
+3. "git commit -m 'Descriptive Message Here'"
+4. "git push https://github.com/ercgrat/MLProject master"
+5. Log in
